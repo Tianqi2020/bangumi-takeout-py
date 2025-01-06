@@ -16,7 +16,7 @@ from utils import env_in_github_workflow
 logging.basicConfig(level=logging.INFO)
 
 API_SERVER = "https://api.bgm.tv"
-LOAD_WAIT_MS = 5000
+LOAD_WAIT_MS = 200
 USERNAME_OR_UID = ""
 ACCESS_TOKEN = ""
 IN_GITHUB_WORKFLOW = env_in_github_workflow()
